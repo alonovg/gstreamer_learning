@@ -1,0 +1,20 @@
+# Добавляем в .gitignore ВСЕ
+*
+
+!CMakeLists.txt
+
+!basic-tutorial-*/
+!basic-tutorial-*/basic-tutorial-*.c
+
+!.gitignore
+!requirements.txt
+!README.md
+
+# Write you directories here:
+# *Для всех остальных файлов/папок паттерн тот же как с
+# конфигом - сначала добавляем в исключение папку, после файлы .py в ней*
+!src/
+
+
+# Always at the end
+!src/**/*.py
