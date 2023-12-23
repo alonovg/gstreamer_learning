@@ -15,4 +15,3 @@ link_directories(${GST_AUDIO_LIBRARY_DIRS})
 add_executable(${PROJECT_NAME} basic-tutorial-8/basic-tutorial-8.c)
 
 target_link_libraries(${PROJECT_NAME} ${GST_LIBRARIES} ${GST_AUDIO_LIBRARIES})
-

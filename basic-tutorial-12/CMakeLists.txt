@@ -13,7 +13,7 @@ include_directories(${GST_PBUTILS_INCLUDE_DIRS})
 link_directories(${GST_LIBRARY_DIRS})
 link_directories(${GST_PBUTILS_LIBRARY_DIRS})
 
-add_executable(${PROJECT_NAME} basic-tutorial-13/basic-tutorial-13.c)
+add_executable(${PROJECT_NAME} basic-tutorial-12/basic-tutorial-12.c)
 
 target_link_libraries(${PROJECT_NAME} ${GST_LIBRARIES} ${GST_PBUTILS_LIBRARIES})
 

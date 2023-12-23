@@ -21,7 +21,7 @@ link_directories(
 )
 
 #building target executable
-add_executable(${PROJECT_NAME} basic-tutorial-1.c)
+add_executable(${PROJECT_NAME} basic-tutorial-3.c)
 
 #linking Gstreamer library with target executable
 target_link_libraries(${PROJECT_NAME} ${GSTREAMER_LIBRARIES})
